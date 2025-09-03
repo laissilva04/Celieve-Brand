@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
         <html lang="pt">
           <head>
-            <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+            <link rel="icon" type="image/png" href="/celieve-brand-logo.jpeg" />
           </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>

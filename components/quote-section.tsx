@@ -12,7 +12,7 @@ export function QuoteSection() {
         <div className="space-y-8">
           <div className="w-24 h-0.5 bg-[#FBDE54] mx-auto"></div>
 
-          <blockquote className="text-3xl md:text-4xl font-serif font-light text-white leading-relaxed text-balance italic">
+          <blockquote className="text-2xl md:text-3xl font-serif font-light text-white leading-relaxed text-balance italic">
             Na década do glamour e da censura, algumas mulheres usaram a moda como{" "}
             <span className="text-[#FBDE54] not-italic font-normal">megafone</span>. Entre o brilho dos holofotes e as
             sombras do machismo: a moda como <span className="text-[#FBDE54] not-italic font-normal">voz feminina</span>

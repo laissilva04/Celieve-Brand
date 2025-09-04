@@ -1,6 +1,6 @@
 export function HeroSection() {
   return (
-    <section className="bg-[#012809] text-white py-32 px-6 relative overflow-hidden">
+  <section className="bg-[#012809] text-white py-16 px-6 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-64 h-64 border border-[#FBDE54] rounded-full"></div>
         <div className="absolute bottom-20 right-20 w-48 h-48 border border-[#FBDE54] rounded-full"></div>
@@ -14,7 +14,7 @@ export function HeroSection() {
               <p className="text-[#FBDE54] font-light tracking-widest uppercase text-sm">Moda Feminina de Luxo</p>
             </div>
 
-            <h1 className="text-6xl md:text-7xl font-serif font-light leading-tight text-balance">
+                        <h1 className="text-6xl md:text-7xl font-serif font-light leading-tight text-balance">
               Confiança.
               <br />
               <span className="text-[#FBDE54] italic">Estilo</span>.
@@ -31,7 +31,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-[#FBDE54]/20 to-transparent rounded-lg"></div>
-              <div className="h-[500px] rounded-lg overflow-hidden relative">
+              <div className="h-[400px] rounded-lg overflow-hidden relative">
                 <img
                   src="/elegancia-feminina-vintage.jpeg"
                   alt="Elegância Feminina - Mulheres vintage elegantes"

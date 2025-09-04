@@ -38,6 +38,8 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 }
+html {
+  font-size: 80%;
 
 .dark {
   --background: oklch(0.145 0 0);
@@ -120,6 +122,9 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+  @apply bg-background text-foreground;
+  transform: scale(0.8);
+  transform-origin: top left;
   }
+}
 }

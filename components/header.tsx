@@ -8,8 +8,8 @@ export function Header() {
           <Image
             src="/celieve-brand-logo.jpeg"
             alt="CELIEVE BRAND Logo"
-            width={150}
-            height={90}
+            width={120}
+            height={72}
             className="object-contain"
           />
         </div>
@@ -17,20 +17,20 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-12">
           <a
             href="#sobre"
-            className="text-lg font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
+            className="text-base font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
           >
             Sobre
           </a>
 
           <a
             href="#colecao"
-            className="text-lg font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
+            className="text-base font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
           >
             Coleção
           </a>
           <a
             href="#contato"
-            className="text-lg font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
+            className="text-base font-light hover:text-[#FBDE54] transition-all duration-300 hover:tracking-wide"
           >
             Contato
           </a>

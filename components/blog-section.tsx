@@ -80,10 +80,6 @@ export function BlogSection() {
             <div className="text-2xl md:text-3xl font-serif text-white/70 italic -mt-2 mb-8">Fashionably</div>
             <div className="w-32 h-px bg-[#FBDE54] mx-auto mb-8"></div>
           </div>
-          <p className="text-lg text-white/80 font-light max-w-4xl mx-auto leading-relaxed">
-            Na década do glamour e da censura, algumas mulheres usaram a moda como megafone. Entre o brilho dos
-            holofotes e as sombras do machismo: a moda como voz feminina.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
@@ -203,7 +199,7 @@ export function BlogSection() {
 
         <div className="text-center mt-24 pt-16 border-t border-white/10">
           <div className="max-w-3xl mx-auto">
-            <h3 className="text-4xl md:text-5xl font-serif text-[#FBDE54] mb-6 leading-tight">
+            <h3 className="text-2xl md:text-3xl font-serif text-[#FBDE54] mb-6 leading-tight">
               Inspire-se em Suas Histórias
             </h3>
             <p className="text-white/80 mb-10 text-lg leading-relaxed">
@@ -215,7 +211,7 @@ export function BlogSection() {
                 href="https://instagram.com/celievebrand"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#FBDE54] text-[#012809] px-8 py-4 font-medium tracking-wider uppercase hover:bg-[#FBDE54]/90 transition-all duration-300 hover:shadow-lg flex items-center justify-center"
+                className="bg-[#FBDE54] text-[#012809] px-4 py-2 text-sm font-medium tracking-wider uppercase hover:bg-[#FBDE54]/90 transition-all duration-300 hover:shadow-lg flex items-center justify-center"
               >
                 Conheça Nossa Coleção
               </a>
@@ -223,7 +219,7 @@ export function BlogSection() {
                 href="https://instagram.com/celievebrand"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-[#FBDE54] text-[#FBDE54] px-8 py-4 font-medium tracking-wider uppercase hover:bg-[#FBDE54] hover:text-[#012809] transition-all duration-300 flex items-center justify-center"
+                className="border border-[#FBDE54] text-[#FBDE54] px-4 py-2 text-sm font-medium tracking-wider uppercase hover:bg-[#FBDE54] hover:text-[#012809] transition-all duration-300 flex items-center justify-center"
               >
                 Leia Mais Histórias
               </a>

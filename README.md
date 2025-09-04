@@ -20,7 +20,7 @@ A **Celieve Brand** é uma marca de moda feminina de luxo desenvolvida por uma e
 
 - HTML5
 - CSS3
-- JavaScript
+- Typescript
 - Design Responsivo
 - Netlify (Deploy)
 
